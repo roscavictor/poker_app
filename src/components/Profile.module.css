@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+
+* {
+  font-family: "Roboto Slab", serif;
+}
+
+.profileBox {
+  position: relative;
+  height: 80vh;
+  margin-top: 5vh;
+  margin-bottom: 2vh;
+  margin-left: 2vw;
+  color: #002147;
+  background-color: white;
+}
+
+
+.generalInfo {
+  line-height: 1;
+  padding: 3%;
+  align-items: center;
+  color: #002147;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 1.5vw;
+}
+
+
+.studentProfile {
+  margin-top: 2vh;
+  color: #f6bb0a;
+  font-weight: bold;
+  font-size: 1.25em;
+}
+.generalProfileButton {
+  background-color: #176087 !important;
+  color: white;
+  border: none;
+  border-radius: 5%;
+  width: 50%;
+  height: 6vh;
+  margin-top: 10%;
+}
+.loading {
+  padding-top: 3vh;
+  font-size: 1em;
+}
+
