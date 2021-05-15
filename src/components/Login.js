@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import styles from "./Login.module.css";
 import { Link } from "react-router-dom";
 import { Redirect } from "react-router-dom";
-import main_image from "../imgs/main_image.jpeg";
+
 
 import {
   Button,
