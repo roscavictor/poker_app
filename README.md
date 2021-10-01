@@ -80,4 +80,6 @@ if(this.state.bot1bet<=this.state.playertotalbet && this.state.playertotalbet-th
     playerhandrank=playerhandrank+100+parseInt(nr_playercard2,10)+parseInt(nr_playercard1,10)/20;
  ```
 ###5. Short summary.
-The entire paper is just a bunch of if's and working around several states. There are issues where because setState is async, states are not updated fast enough for the game to work properly. Several problems need to be worked on. 
+The entire paper is just a lot of if's and working around several states. There are issues where because setState is async, states are not updated fast enough for the game to work properly. Several problems need to be worked on. 
+![image](https://user-images.githubusercontent.com/49694231/135673284-676c0206-4f05-4075-bb06-b12eeaed0f77.png)
+
