@@ -79,7 +79,7 @@ if(this.state.bot1bet<=this.state.playertotalbet && this.state.playertotalbet-th
     if( playercard1freq==0 && playercard2freq==1)
     playerhandrank=playerhandrank+100+parseInt(nr_playercard2,10)+parseInt(nr_playercard1,10)/20;
  ```
-###5. Short summary.
+### 5. Short summary.
 The entire paper is just a lot of if's and working around several states. There are issues where because setState is async, states are not updated fast enough for the game to work properly. Several problems need to be worked on. I'm also aware that several things could have also been implemented more efficient  and more logically.
 
 
