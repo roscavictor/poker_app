@@ -11,7 +11,7 @@ In the src directory, you can run:
 Runs the app in the development mode.\
 
 
- ## Implementation of the game itself
+ ## Implementation of the game itself (Poker.js)
  ### 1. The deck of cards
  First we'll have to declare an array of cards(which are just the strings of the file names themselves) which we can use to render the cards themselves.
  We use the Fisher-Yates shuffle since it's an algorhitm that allows us to randomly shuffle an array:
